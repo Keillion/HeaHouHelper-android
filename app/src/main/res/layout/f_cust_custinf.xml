@@ -6,6 +6,7 @@
     <SearchView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/searchView"
+        android:iconifiedByDefault="false"
+        android:id="@+id/f_cust_custinf_sv"
         android:queryHint="编号/姓名" />
 </LinearLayout>
