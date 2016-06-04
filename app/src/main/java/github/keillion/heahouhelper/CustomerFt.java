@@ -41,7 +41,7 @@ public class CustomerFt extends Fragment {
             //resume states
             activeFragmentTag = savedInstanceState.getString("github.keillion.heahouhelper.CustomerFt.activeFragmentTag");
             fragmentTags = savedInstanceState.getStringArrayList("github.keillion.heahouhelper.CustomerFt.fragmentTags");
-            int tempActiveButtonId = savedInstanceState.getInt("github.keillion.heahouhelper.MainActivity.activeButtonId");
+            int tempActiveButtonId = savedInstanceState.getInt("github.keillion.heahouhelper.CustomerFt.activeButtonId");
 
             //hide all
             FragmentTransaction ft = getFragmentManager().beginTransaction();

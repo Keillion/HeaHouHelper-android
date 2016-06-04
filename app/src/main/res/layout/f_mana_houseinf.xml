@@ -7,6 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:iconifiedByDefault="false"
-        android:id="@+id/f_cust_cardinf_sv"
-        android:queryHint="卡号/持卡人姓名" />
+        android:id="@+id/f_mana_hsinf_sv"
+        android:queryHint="场馆编号/场馆名称" >
+    </SearchView>
 </LinearLayout>

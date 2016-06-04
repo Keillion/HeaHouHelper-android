@@ -11,22 +11,43 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="场馆"
-            android:id="@+id/button6"
+            android:text="查卡品种"
+            android:id="@+id/f_mana_b_cclassinf"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="员工"
-            android:id="@+id/button8"
+            android:text="查询场馆"
+            android:id="@+id/f_mana_b_houseInf"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="会员卡种类"
-            android:id="@+id/button9"
+            android:text="查询员工"
+            android:id="@+id/f_mana_b_employeeInf"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添卡品种"
+            android:id="@+id/f_mana_b_addcclass"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加场馆"
+            android:id="@+id/f_mana_b_addhouse"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加员工"
+            android:id="@+id/f_mana_b_addemployee"
             android:layout_weight="1" />
     </LinearLayout>
 

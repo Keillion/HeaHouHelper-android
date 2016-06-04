@@ -1,4 +1,4 @@
-package github.keillion.heahouhelper.customer;
+package github.keillion.heahouhelper.manage;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -13,16 +13,16 @@ import android.widget.SearchView;
 import github.keillion.heahouhelper.R;
 
 /**
- * Created by Keillion on 2016/6/3.
+ * Created by Keillion on 2016/6/4.
  */
-public class CardInfFt extends Fragment {
+public class CclassInfFt extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View fv = inflater.inflate(R.layout.f_cust_cardinf, container, false);
+        View fv = inflater.inflate(R.layout.f_mana_cclassinf, container, false);
 
         //register keycode_search push down of searchView
-        ((SearchView)fv.findViewById(R.id.f_cust_cardinf_sv)).setOnKeyListener(new View.OnKeyListener() {
+        ((SearchView)fv.findViewById(R.id.f_mana_ccinf_sv)).setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
 

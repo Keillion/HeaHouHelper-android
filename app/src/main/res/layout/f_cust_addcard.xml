@@ -3,4 +3,82 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView3"
+        android:fadeScrollbars="false"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/f_cust_addcard_t_owner"
+                android:hint="持有者" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/f_cust_addcard_t_cclass"
+                android:hint="卡品种" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/f_cust_addcard_t_house"
+                android:hint="办卡场馆" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/f_cust_addcard_t_value"
+                android:hint="点数" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/f_cust_addcard_t_seller"
+                android:hint="处理者" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/f_cust_addcard_t_descroption"
+                android:hint="备注" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="提交"
+                android:id="@+id/f_cust_addcard_t_submit" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="清空"
+                android:id="@+id/f_cust_addcard_t_clear" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="420px" />
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
